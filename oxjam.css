@@ -1,0 +1,180 @@
+/* @override http://stitchstitchrecords.co.uk/oxjam/oxjam.css */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: 8pt;
+	background: #dec29b repeat-y;
+}
+#header{
+	width: 700px;
+	height: 228px;
+	background: url(header.jpg);
+}
+#header h1{
+	display: none;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 700px;
+	padding: 0 50px;
+	background: url(background.jpg) repeat-y;
+}
+
+
+#main{
+	background-color: #f7efe1;
+	margin-top: -10px;
+}
+
+#info{
+	background-color: #e1def8;
+}
+#info p{
+	text-indent: 0;
+}
+
+#info a{
+	background: #90aaee;
+}
+#info a:hover{
+	background: #606090;
+}
+.poster {
+	float: right;
+	width: 200px;
+	padding-left: 5%;
+}
+
+.box{
+	clear: both;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.box p{
+	padding-top: 10px;
+}
+a img {
+	border: none;
+}
+
+p, table, h2{
+	font-family: "Courier New", Courier, mono;
+	line-height: 1.5;
+	word-spacing: .4em;
+	margin: 10px;
+}
+p{
+	text-indent: 1em;
+}
+p a {
+	color: #000;
+	/*background: #606090;*/
+	
+	text-decoration: none;
+	padding-left: 2px;	
+	padding-right: 2px;
+	background-color: #e1def8;
+}
+p a:hover{
+	background: #90aaee;
+}
+.poster a{
+	text-decoration: none;
+	padding: 0px;
+	background: transparent;
+}
+.poster p{
+		font-family: "Lucida Grande", Verdana, sans-serif;
+		padding: 3px;
+		margin: 0 0 0 0;
+		text-indent:0;
+}
+.links {
+	margin: 0;
+	padding: 30px 10px;
+	width: 100%;
+	clear: both;
+}
+#homelink{
+	margin: 0;
+	position:fixed;
+	top: 5px;
+	right: 5px;
+	z-index:10;
+}
+#homelink a{
+	display: block;
+	width: 54px;
+	height: 54px;
+	background: url(goback.gif) no-repeat 0 0;
+	margin: 0;
+	text-indent: -5000px;
+	border: 1px solid #000;
+}
+#homelink a:hover{
+	width: 192px;
+	padding: 0;
+}
+
+.links td p{
+	display: inline;
+	margin: 0;
+	padding-left: 1em;
+}
+.band {
+	clear: both;
+}
+.band img{
+	position: relative;
+	z-index: 0;
+}
+.info{
+	position:relative;
+	width: 80%;
+	height: 100px;
+	margin: -140px 10% 18px 10%;
+	border: none;
+	padding: 10px;
+	background: rgb(60,60,60); /*fallback compatibility value*/
+	background: rgba(60,60,60,0.8);
+	color: #fff;
+	z-index: 1;
+}
+.right{
+	text-align: right;
+}
+.fleft{
+	float: left;
+	padding-right: 10px;
+}
+#footer{
+	clear: both;
+	background-image: url(middlebg.jpg);
+	padding: 10px;
+}
+#footer p {
+	background-color: #f7efe1;
+	text-indent: 0;
+	padding: 10px;
+}
+#main .fb_share_link { 
+	padding:2px 0 0 20px;
+	height:16px;
+	background: #90aaee url(http://b.static.ak.fbcdn.net/rsrc.php/zAB5S/hash/4273uaqa.gif) no-repeat left; 
+}
+#main .fb_share_link:hover{
+	background: #606090 url(http://b.static.ak.fbcdn.net/rsrc.php/zAB5S/hash/4273uaqa.gif) no-repeat left;
+}
+/* stops big dotted boxes in firefox */
+a {
+	overflow: hidden;
+}
+iframe{
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
